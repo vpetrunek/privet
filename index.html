@@ -1,9 +1,22 @@
-<html> 
-<head> 
-<link rel="js" href="./js"> 
-</head> 
-<body> 
-<script src="script.js"> 
-</script> 
-</body> 
-</html>
+<!DOCTYPE html>
+ <html> 
+   <head> 
+      <script>
+      	alert("Hello world!");
+var your_name=prompt("please enter your name");
+var answer=0; 
+for (var i=0;i<5;i++){ 
+var x=Math.floor(Math.random()*100)+0; 
+var y=Math.floor(Math.random()*100)+0; 
+var z=x+y; 
+var d=prompt(x+"+"+y+"="); 
+d=parseInt(d); 
+if(Number.isNaN(d)) window.alert('Это не число'); 
+if(d==z) answer++; 
+} 
+window.alert(your_name+answer); 
+      </script>
+   </head> 
+   <body>      
+   </body> 
+ </html>
